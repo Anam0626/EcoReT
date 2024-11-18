@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Grey+Qo&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#main{
+    width: 100%;
+    height: 85vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header h1{
+    font-size: 18vw;
+    font-family: "EB Garamond", serif;
+    color: #fff;
+}
+
+#product-lavender{
+    position: absolute;
+    margin-bottom: 100px;
+    width: 70%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#product-chamomile{
+    position: absolute;
+    margin-bottom: 100px;
+    width: 60%;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#product-jasmine{
+    position: absolute;
+    margin-bottom: 100px;
+    width: 60%;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#lavender{
+    position: absolute;
+    top: 8%;
+    left: 42%;
+    width: 25%;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#jasmine{
+    position: absolute;
+    width: 15%;
+    z-index: 3;
+    top: 70%;
+    right: 35%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#chamomile{
+    top: 10%;
+    left: 5%;
+    transform: rotate(60deg);
+    position: absolute;
+    width: 7%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#lavender2{
+    top: 70%;
+    left: 80%;
+    transform: rotate(20deg);
+    position: absolute;
+    width: 7%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+
+.about-lavender{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #ce87e2, #CB6CE6, #AE00E0);
+}
+
+.about-chamomile{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #d2c66a, #dac62d, #af9b03);
+}
+
+.about-jasmine{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #fefefe, #aaaaaa, #7c7c7c);
+}
+
+.about-left, .about-right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.about-left img{
+    margin-top: 45vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+
+.about-right h1{
+    color: #fff;
+    font-size: 5vw;
+}
+
+.about-right p{
+    font-size: 1vw;
+    color: #fff;
+    width: 80%;
+}
+
+.about-chamomile .about-right img{
+    margin-top: 45vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+
+.about-chamomile .about-left{
+    margin-left: 50px;
+}
+
+.about-chamomile .about-left h1{
+    color: #fff;
+    font-size: 5vw;
+}
+
+.about-chamomile .about-left p{
+    font-size: 1vw;
+    color: #fff;
+    width: 80%;
+}
+
+.podium{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Assets/Podium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+}
+.podium h1 {
+    font-size: 100px;
+    font-family: "EB Garamond", serif;
+    color: #fff;
+    margin-bottom: 580px;
+}
+.podium img{
+    width: 100%;
+    height: 100%;
+}
+
+
